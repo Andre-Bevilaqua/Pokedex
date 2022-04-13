@@ -1,0 +1,48 @@
+.card {
+    border: 12px solid rgb(99, 74, 12) ;
+    border-radius: 0.5rem;
+    margin: 10px 10px;
+    text-transform: capitalize;
+    background-color:rgb(208, 230, 250);
+    width: 20%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.imagem {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.tipos {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+.tipo{
+    padding: 10px 10px;
+    background-color: gray;
+    width: fit-content;
+    border-radius: 1.3rem;
+    margin: 8px 8px;
+    color: white;
+}
+.header{
+    background-color:rgb(206, 175, 0);
+    color:white;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    margin-left: 10px;
+}
